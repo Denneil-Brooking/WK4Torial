@@ -1,0 +1,8 @@
+C:\Users\Lapis Lazuli\Desktop\Mystic\ProgAndProb\Git\WK4Torial\Task3\bin\Debug\netcoreapp1.1\Task3.deps.json
+C:\Users\Lapis Lazuli\Desktop\Mystic\ProgAndProb\Git\WK4Torial\Task3\bin\Debug\netcoreapp1.1\Task3.runtimeconfig.json
+C:\Users\Lapis Lazuli\Desktop\Mystic\ProgAndProb\Git\WK4Torial\Task3\bin\Debug\netcoreapp1.1\Task3.runtimeconfig.dev.json
+C:\Users\Lapis Lazuli\Desktop\Mystic\ProgAndProb\Git\WK4Torial\Task3\bin\Debug\netcoreapp1.1\Task3.dll
+C:\Users\Lapis Lazuli\Desktop\Mystic\ProgAndProb\Git\WK4Torial\Task3\bin\Debug\netcoreapp1.1\Task3.pdb
+C:\Users\Lapis Lazuli\Desktop\Mystic\ProgAndProb\Git\WK4Torial\Task3\obj\Debug\netcoreapp1.1\Task3.AssemblyInfo.cs
+C:\Users\Lapis Lazuli\Desktop\Mystic\ProgAndProb\Git\WK4Torial\Task3\obj\Debug\netcoreapp1.1\Task3.dll
+C:\Users\Lapis Lazuli\Desktop\Mystic\ProgAndProb\Git\WK4Torial\Task3\obj\Debug\netcoreapp1.1\Task3.pdb
