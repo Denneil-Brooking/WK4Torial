@@ -6717,6 +6717,9 @@
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "files": {
+        "lib/netcoreapp1.1/Task2.dll": "C:\\Users\\Lapis Lazuli\\Desktop\\Mystic\\ProgAndProb\\Git\\WK4Torial\\Task2\\bin\\placeholder\\netcoreapp1.1\\Task2.dll"
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -6728,8 +6731,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.1.2",
-            "autoReferenced": true
+            "version": "1.1.2"
           }
         }
       }

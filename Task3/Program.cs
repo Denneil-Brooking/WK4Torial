@@ -6,20 +6,29 @@ namespace Task3
     {
         static void Main(string[] args)
         {
+            //Clear Console to set anew
+            Console.Clear();
             //Create var
             var Fruits = new string[5];
-            //Loop start
             var count = 5;
+            string[] step = {"1st", "2nd", "3rd", "4th", "5th"};
+            
+            //Create for loop 
             for (var i = 0; i < count; i++)
             {
-                //Fruits = i + 1;
+                //Ask for a Fruit
+                foreach(string value in step)
+                {
+                Console.WriteLine($"Pick your {value} Fruit");
+            
             //User input
-            Console.WriteLine("Pick a Fruit");
-            Fruits = Console.ReadLine();
+            Fruits[i] = Console.ReadLine();
+            //Inform user of data input
+           Console.WriteLine($"You picked {Fruits}");
+                }
             }
-           
 
-            //Print In Ascending Order
+            //Print in Ascending Order
             Array.Sort(Fruits);
             Console.WriteLine(string.Join(",",Fruits));
 
@@ -27,7 +36,7 @@ namespace Task3
             Array.Reverse(Fruits);
             Console.WriteLine(String.Join(",", Fruits));
 
-            //Close
+            //Close program
             Console.ReadKey();
         }
     }
