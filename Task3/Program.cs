@@ -16,25 +16,26 @@ namespace Task3
             //Create for loop 
             for (var i = 0; i < count; i++)
             {
-                //Ask for a Fruit
-                foreach(string value in step)
-                {
-                Console.WriteLine($"Pick your {value} Fruit");
             
+                string value = step[];
+              
+            //Ask for a Fruit
+            Console.WriteLine($"Pick your {value} Fruit");
+                
             //User input
             Fruits[i] = Console.ReadLine();
             //Inform user of data input
-           Console.WriteLine($"You picked {Fruits}");
-                }
+           Console.WriteLine($"You picked {Fruits[i]}");
+           Console.WriteLine(Environment.NewLine);
             }
 
             //Print in Ascending Order
             Array.Sort(Fruits);
-            Console.WriteLine(string.Join(",",Fruits));
+            Console.WriteLine($"In Order you picked {string.Join(",",Fruits)}");
 
             //Print in Descending Order.
             Array.Reverse(Fruits);
-            Console.WriteLine(String.Join(",", Fruits));
+            Console.WriteLine($"Reverse Order is {String.Join(",", Fruits)}");
 
             //Close program
             Console.ReadKey();
